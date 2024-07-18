@@ -1,4 +1,4 @@
-package com.example;
+package me.nelonn;
 
 import net.fabricmc.api.ClientModInitializer;
 
