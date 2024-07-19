@@ -14,11 +14,6 @@
 	"license": "MIT",
 	"icon": "assets/modid/icon.png",
 	"environment": "client",
-	"entrypoints": {
-		"client": [
-          "me.nelonn.ExampleModClient"
-		]
-	},
 	"mixins": [
 		{
 			"config": "model-exporter.client.mixins.json",

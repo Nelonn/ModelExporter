@@ -4,7 +4,9 @@
   "compatibilityLevel": "JAVA_21",
   "client": [
     "EntityModelSetMixin",
-    "ModelPartCubeMixin"
+    "ModelPartCubeMixin",
+    "PoseStackMixin",
+    "PoseStackPoseMixin"
   ],
   "injectors": {
     "defaultRequire": 1
