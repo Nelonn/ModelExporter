@@ -5,11 +5,11 @@ import org.joml.Vector4f;
 
 public interface CubeAccessor {
 
-    default Vector3f modelExporter$getGrow() {
+    default Vector4f modelExporter$texUVWH() {
         throw new UnsupportedOperationException();
     }
 
-    default Vector4f modelExporter$texUVWH() {
+    default Vector3f modelExporter$getGrow() {
         throw new UnsupportedOperationException();
     }
 
