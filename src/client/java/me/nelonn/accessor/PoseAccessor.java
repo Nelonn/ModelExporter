@@ -1,9 +1,9 @@
-package me.nelonn;
+package me.nelonn.accessor;
 
 import org.joml.Quaternionf;
 import org.joml.Vector3f;
 
-public interface RawPose {
+public interface PoseAccessor {
 
     default Vector3f modelExporter$translation() {
         throw new UnsupportedOperationException();

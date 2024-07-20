@@ -1,6 +1,6 @@
 package me.nelonn.mixin.client;
 
-import me.nelonn.CubeTex;
+import me.nelonn.accessor.CubeAccessor;
 import net.minecraft.client.model.geom.ModelPart;
 import org.joml.Vector3f;
 import org.joml.Vector4f;
@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import java.util.Set;
 
 @Mixin(ModelPart.Cube.class)
-public abstract class ModelPartCubeMixin implements CubeTex {
+public abstract class ModelPartCubeMixin implements CubeAccessor {
 
     @Unique private float tex_u0 = 0.0F;
     @Unique private float tex_v0 = 0.0F;

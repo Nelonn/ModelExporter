@@ -14,6 +14,7 @@
 	"license": "MIT",
 	"icon": "assets/modid/icon.png",
 	"environment": "client",
+	"accessWidener": "model-exporter.accesswidener",
 	"mixins": [
 		{
 			"config": "model-exporter.client.mixins.json",
